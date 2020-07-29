@@ -5,7 +5,8 @@ def count_strings(array)
     if array[element].include?("")
       num+=1 
     end  
-  end   
+  end 
+  num 
 end
 
 def count_empty_strings(array)
